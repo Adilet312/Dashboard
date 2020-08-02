@@ -1,0 +1,11 @@
+figure{
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  justify-content: flex-end;
+}
+figure h4{
+ text-align: center;
+ color:#0061f2;
+ font-weight: bold;
+}

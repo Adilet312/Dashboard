@@ -1,0 +1,266 @@
+body{
+margin:0;
+padding:0;
+background:#eff3f9;
+position:relative;
+}
+header{
+width:100%;
+height:260px;
+background:#0061f2;
+
+}
+footer{
+width:100%;
+height:100px;
+}
+
+
+
+@media only screen and (min-width:375px){
+  main{
+    position:relative;
+    top:-100px;
+    margin-left:10%;
+    margin-right:10%;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(16,minmax(175px,auto));
+  }
+  .welcome-back{
+   grid-colum:1/2;
+   grid-row:1/3;
+   background:#fff;
+  }
+  .recent-activity{
+   background:#fff;
+   grid-column:1/2;
+   grid-row:3/5;
+  }
+  .progress-tracker{
+   grid-column:1/2;
+   grid-row:5/7;
+   background:#fff;
+  }
+  .earnings-monthly
+  {
+   grid-colum:1/2;
+   grid-row:7/8;
+   background:#0061f2;
+  }
+  .earnings-year{
+   grid-colum:1/2;
+   grid-row:8/9;
+   background:#f4a100;
+  }
+  .task-completion
+  {
+   grid-colum:1/2;
+   grid-row:9/10;
+   background:#00ac69;
+  }
+  .pending-request{
+    grid-colum:1/2;
+    grid-row:10/11;
+    background:#e81500;
+  }
+  .table{
+    grid-colum:1/2;
+    grid-row:11/16;
+    background:#fff;
+  }
+}
+@media only screen and (min-width:420px) and(max-width:620px){
+  main{
+    position:relative;
+    top:-100px;
+    margin-left:10%;
+    margin-right:10%;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:repeat(10,minmax(175px,auto));
+  }
+  .welcome-back{
+   grid-column:1/3;
+   grid-row:1/2;
+   background:#fff;
+  }
+  .recent-activity{
+   background:#fff;
+   grid-column:1/2;
+   grid-row:2/4;
+  }
+  .progress-tracker{
+   grid-column:2/3;
+   grid-row:2/4;
+   background:#fff;
+  }
+  .earnings-monthly
+  {
+   grid-colum:1/2;
+   grid-row:4/5;
+   background:#0061f2;
+  }
+  .earnings-year{
+   grid-colum:2/3;
+   grid-row:4/5;
+   background:#f4a100;
+  }
+  .task-completion
+  {
+   grid-colum:1/2;
+   grid-row:5/6;
+   background:#00ac69;
+  }
+  .pending-request{
+    grid-colum:2/3;
+    grid-row:5/6;
+    background:#e81500;
+  }
+  .table{
+    grid-column:1/3;
+    grid-row:6/10;
+    background:#fff;
+  }
+}
+@media only screen and (min-width:1200px)
+{
+main{
+ position:relative;
+ top:-100px;
+ margin-top:10px;
+ margin-left:10%;
+ margin-right:10%;
+ display:grid;
+ grid-gap:20px;
+ grid-template-columns:repeat(48,1fr);
+ grid-template-rows:repeat(32,minmax(40px,auto));
+}
+    .welcome-back{
+     grid-column:1/48;
+     grid-row:1/4;
+     background:#fff;
+    }
+    .recent-activity{
+     background:#fff;
+     grid-column: 1/24;
+     grid-row: 4/12;
+    }
+    .progress-tracker{
+     grid-column:24/48;
+     grid-row: 4/12;
+     background:#fff;
+    }
+    .earnings-monthly
+    {
+     grid-column:1/24;
+     grid-row:12/16;
+     background:#0061f2;
+    }
+    .earnings-year{
+     grid-column:24/48;
+     grid-row:12/16;
+     background:#f4a100;
+    }
+    .task-completion
+    {
+     grid-column:1/24;
+     grid-row:16/20;
+     background:#00ac69;
+    }
+    .pending-request{
+      grid-column:24/48;
+      grid-row:16/20;
+      background:#e81500;
+    }
+    .table{
+      grid-column:1/48;
+      grid-row:20/32;
+      background:#fff;
+    }
+
+}
+
+@media only screen and (min-width:1500px){
+
+  main{
+  position:relative;
+  top:-100px;
+  margin-top:10px;
+  margin-left:10%;
+  margin-right:10%;
+ display:grid;
+ grid-gap:20px;
+ grid-template-columns:repeat(51,1fr);
+ grid-template-rows:repeat(32,minmax(40px,auto));
+ }
+     .welcome-back{
+     grid-area:welcome-back;
+     background:#fff;
+     grid-column:1/17;
+     grid-row:1/9;
+    }
+     .recent-activity{
+     grid-column:17/34;
+     grid-row:1/9;
+        background:#fff;
+    }
+     .progress-tracker{
+     grid-column:34/51;
+     grid-row:1/9;
+     background:#fff;
+    }
+   .earnings-monthly
+    {
+     grid-column:1/13;
+     grid-row:9/12;
+     background:#0061f2;
+    }
+    .earnings-year{
+     grid-column:13/26;
+     grid-row:9/12;
+     background:#f4a100;
+    }
+    .task-completion
+    {
+     grid-column:26/39;
+     grid-row:9/12;
+     background:#00ac69;
+    }
+    .pending-request{
+     grid-column:39/51;
+     grid-row:9/12;
+      background:#e81500;
+    }
+    .table{
+      grid-column:1/51;
+      grid-row:12/32;
+      background:#fff;
+    }
+}
+
+main div{
+  border-radius:5px;
+
+}
+
+
+
+/* .header-recent-activity{
+  display:flex;
+  height:60px;
+  align-items:center;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-left:20px;
+  padding-right:20px;
+  background:rgba(31, 45, 65, 0.03);
+  color:blue;
+  border-bottom:1px solid lightgrey;
+}
+i{
+  color:grey;
+  font-size:15px;
+} */
