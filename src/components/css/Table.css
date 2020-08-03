@@ -1,0 +1,125 @@
+/*Table start*/
+*{
+  box-sizing: border-box;
+ }
+.section-table h2{
+  background-color:rgba(31, 45, 65, 0.03);
+  color: #0061f2;
+  padding: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(4, 40, 90, 0.03);
+}
+.table-form{
+  background-color: #fff;
+  border-radius: 0.35rem;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-form{
+  padding-left: 10px;
+}
+.right-form{
+  padding-right: 10px;
+}
+
+  /*Table-Table style start*/
+table, th, td {
+  color:#687281; ;
+  border: 1px solid #e3e6ec;
+}
+table {
+border-collapse: collapse;
+width: 98.2%;
+border-collapse: collapse;
+border-spacing: 0;
+border: 1px solid #ddd;
+margin-left: 10px;
+}
+th, td {
+text-align: left;
+padding: 8px;
+}
+th {
+height: 50px;
+color:#0061f2;
+cursor: pointer;
+}
+tbody tr:hover {
+color: #687281;
+background-color: rgba(227, 230, 236, 0.25);
+}
+.bins {
+  height: 10px;
+  width: 10px;
+}
+.badges {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.35rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.badge-primary {
+  color: #fff;
+  background-color: #0061f2;
+}
+.badge-warning {
+  color: #fff;
+  background-color: #f4a100;
+}
+.badge-secondary {
+  color: #fff;
+  background-color: #6900c7;
+}
+.blue-arrow {
+  margin-left: 10px;
+}
+   /*Table-Table style end*/
+
+  /*Table-Footer start */
+.table-footer{
+  box-sizing:border-box;
+  width: 98.2%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:20px;
+
+}
+.footer-button ul{
+  list-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:row;
+}
+.footer-button ul li{
+  border: 0.5px solid  #d7dce3;
+  padding: 5px;
+  line-height: 1.25;
+}
+li:hover{
+  background-color: #0061f2;
+}
+.left-form, .right-form, .table-footer p{
+    color: #687281;
+}
+.scroller{
+  overflow-x:auto;
+}
+  /*Table-Footer end*/
+
+/*Table end*/

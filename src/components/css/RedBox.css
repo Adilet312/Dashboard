@@ -1,0 +1,91 @@
+.texts {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+        margin-left: 20px;
+    }
+    .view-report {
+        color: #fff ;
+        cursor: pointer;
+        border-top: 0.5px solid rgb(160, 156, 156);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        align-items: center;
+        justify-content: space-between !important;
+        display: flex;
+    }
+    .text-white {
+        color: #fff !important;
+    }
+    .block-first, .block-second {
+        display: block;
+    }
+    .block-second {
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .view-report-icon {
+        margin-right: 20px;
+    }
+
+.earnings-monthly
+  {
+
+   background:#0061f2;
+  }
+  .earnings-year{
+   background:#f4a100;
+  }
+  .task-completion
+  {
+
+   background:#00ac69;
+  }
+  .pending-request{
+
+    background:#e81500;
+  }
+  .table{
+    grid-area:table;
+    background:#fff;
+  }
+  .texts {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+        margin-left: 20px;
+    }
+    .view-report {
+        color: #fff ;
+        cursor: pointer;
+        border-top: 0.5px solid rgb(160, 156, 156);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        align-items: center;
+        justify-content: space-between !important;
+        display: flex;
+    }
+    .text-white {
+        color: #fff !important;
+    }
+    .block-first, .block-second {
+        display: block;
+    }
+    .block-second {
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .view-report-icon {
+        margin-right: 20px;
+    }
+    i{
+      color:white;
+    }

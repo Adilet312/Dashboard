@@ -1,5 +1,5 @@
 /*Header of Progress Tracker*/
-section header{
+.section-progress-tracker header{
 display:flex;
 height:60px;
 align-items:center;
@@ -9,7 +9,7 @@ color:#0061f2;
 font-weight:bold;
 border-bottom:1px solid lightgrey;
 }
-section header h7{
+.section-progress-tracker .section-progress-header h7{
   margin-left: 10px;
 }
 i{
@@ -30,7 +30,7 @@ i{
   margin-right: 20px;
 }
 /*footer of the progress tracker*/
-section footer{
+.section-progress-tracker footer{
 display:flex;
 height:60px;
 align-items:center;
@@ -42,17 +42,17 @@ font-weight:bold;
 border-bottom:1px solid lightgrey;
 }
 
-section footer h7{
+.section-progress-tracker footer h7{
   margin-left: 10px;
 }
-section footer h7 a{
+.section-progress-tracker footer h7 a{
   text-decoration: none;
   color:grey;
 }
-section footer:hover{
+.section-progress-tracker footer:hover{
   text-decoration: underline;
 }
-/* section footer h7 a:hover{
+/* .section-progress-tracker footer h7 a:hover{
   text-decoration: underline;
 } */
 /*Progress tracker*/
@@ -101,6 +101,6 @@ section footer:hover{
 li{
   list-style:none;
 }
-section ul{
+.section-progress-tracker ul{
   margin-right:20px;
 }
