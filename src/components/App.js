@@ -33,7 +33,10 @@ import './css/app.css';
       <div className="pending-request"><RedBox/></div>
       <div className="personal-management"><Table/></div>
     </main>
-   <footer></footer>
+   <footer className="main-footer">
+     <span className="left-footer">Copyright &copy Your Website 2020</span>
+     <span className="right-footer"><a href="#">Privacy Policy</a>·<a href="#">Terms & Conditions</a> </span>
+   </footer>
 </React.Fragment>
    )
  }
