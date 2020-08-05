@@ -7,10 +7,12 @@ import OrangeBox from "./OrangeBox";
 import GreenBox from "./GreenBox";
 import RedBox from "./RedBox";
 import Table from "./Table";
+import Navigation from "./Navigation";
 import './css/app.css';
  const App = () =>{
    return(
 <React.Fragment>
+  <Navigation/>
    <header>
      <div className="container-h">
        <div className="head-h">

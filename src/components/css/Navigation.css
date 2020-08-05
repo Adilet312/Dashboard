@@ -1,0 +1,31 @@
+.navigation{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  height:50px;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+.navigation .left-side-menu .left-list a,.navigation .right-side-menu .right-list a,.navigation .right-side-menu .right-list i{
+  text-decoration: none;
+  color:grey;
+}
+.navigation .left-side-menu .left-list ,.navigation .right-side-menu .right-list {
+  list-style: none;
+}
+.left-side-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:25%;
+}
+.right-side-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 25%;
+}

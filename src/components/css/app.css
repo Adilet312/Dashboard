@@ -10,6 +10,7 @@ width:100%;
 height:260px;
 background:#0061f2;
 
+
 }
 header .container-h{
   display:flex;
@@ -18,6 +19,7 @@ header .container-h{
   align-items: center;
   color:white;
   flex-wrap:wrap;
+  padding-top: 50px;
 }
 
 header .date-h{
